@@ -20,7 +20,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # NetCDF C libs
-WORKDIR /tmp 
+WORKDIR /tmp
 RUN wget https://downloads.unidata.ucar.edu/netcdf-c/4.9.2/netcdf-c-4.9.2.tar.gz \
     && tar xzf netcdf-c-4.9.2.tar.gz \
     && cd netcdf-c-4.9.2 \
