@@ -43,4 +43,4 @@ WORKDIR /tmp
 RUN rm -rf netcdf-fortran-4.6.1*
 
 # switch to workspace?
-WORKDIR /workspace
+WORKDIR /app
