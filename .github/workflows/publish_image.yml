@@ -3,7 +3,7 @@ name: Build and push vector image
 on:
   pull_request:
     paths:
-      - ".github/workflows/vector_image.yaml"
+      - ".github/workflows/publish_image.yml"
       - ".binder/**"
   workflow_dispatch:
 
