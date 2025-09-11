@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:debian-slim
+FROM quay.io/pangeo/pangeo-notebook
 
 USER root
 
