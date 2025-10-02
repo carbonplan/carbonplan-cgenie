@@ -16,6 +16,7 @@ RUN apt-get update \
         curl \
         git \
         wget \
+        bc \
         build-essential \
     && rm -rf /var/lib/apt/lists/*
 
